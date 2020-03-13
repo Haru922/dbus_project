@@ -1,0 +1,8 @@
+[Unit]
+Description=systemd-bh_py_appA service.
+
+[Service]
+Type=dbus
+User=root
+BusName=kr.gooroom.bhpyappA
+ExecStart=python3 /home/haru/dbus_project/python/applications/bh_py_appA.py

@@ -1,0 +1,8 @@
+[Unit]
+Description=systemd-bh_sd_ghub service.
+
+[Service]
+Type=dbus
+User=haru
+BusName=kr.gooroom.bhsdGHub
+ExecStart=/home/haru/dbus_project/c/sdbus/bin/bh_sd_ghub

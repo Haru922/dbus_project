@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=kr.gooroom.bhcGEmu
+Exec=/home/haru/dbus_project/c/libdbus/bin/bh_c_gemu
+User=root
+SystemdService=bh_c_gemu.service

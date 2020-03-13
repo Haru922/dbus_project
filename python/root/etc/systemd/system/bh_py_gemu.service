@@ -1,0 +1,8 @@
+[Unit]
+Description=systemd-bh_py_gemu service.
+
+[Service]
+Type=dbus
+User=root
+BusName=kr.gooroom.bhpyGEmu
+ExecStart=python3 /home/haru/dbus_project/python/applications/bh_py_gemu.py

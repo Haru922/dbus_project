@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=kr.gooroom.bhsdGHub
+Exec=/home/haru/dbus_project/c/sdbus/bin/bh_sd_ghub
+User=haru
+SystemdService=bh_sd_ghub.service

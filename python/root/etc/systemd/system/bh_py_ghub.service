@@ -1,0 +1,8 @@
+[Unit]
+Description=systemd-bh_py_ghub service.
+
+[Service]
+Type=dbus
+User=haru
+BusName=kr.gooroom.bhpyGHub
+ExecStart=python3 /home/haru/dbus_project/python/applications/bh_py_ghub.py

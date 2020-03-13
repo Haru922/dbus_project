@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=kr.gooroom.bhpyGHub
+User=haru
+Exec=python3 /home/haru/dbus_project/python/applications/bh_py_ghub.py
+SystemdService=bh_py_ghub.service

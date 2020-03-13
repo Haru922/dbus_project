@@ -1,0 +1,8 @@
+[Unit]
+Description=systemd-bh_c_gcontroller service.
+
+[Service]
+Type=dbus
+User=root
+BusName=kr.gooroom.bhcGController
+ExecStart=/home/haru/dbus_project/c/libdbus/bin/bh_c_gcontroller

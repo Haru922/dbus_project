@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=kr.gooroom.bhpyGController
+Exec=python3 /home/haru/dbus_project/python/applications/bh_py_gcontroller.py
+User=root
+SystemdService=bh_py_gcontroller.service

@@ -1,0 +1,8 @@
+[Unit]
+Description=systemd-bh_c_ghub service.
+
+[Service]
+Type=dbus
+User=haru
+BusName=kr.gooroom.bhcGHub
+ExecStart=/home/haru/dbus_project/c/libdbus/bin/bh_c_ghub

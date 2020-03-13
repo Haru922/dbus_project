@@ -1,0 +1,8 @@
+[Unit]
+Description=systemd-bh_c_gemu service.
+
+[Service]
+Type=dbus
+User=root
+BusName=kr.gooroom.bhcGEmu
+ExecStart=/home/haru/dbus_project/c/libdbus/bin/bh_c_gemu

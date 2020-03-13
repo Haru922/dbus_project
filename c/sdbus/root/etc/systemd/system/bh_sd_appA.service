@@ -1,0 +1,8 @@
+[Unit]
+Description=systemd-bh_sd_appA service.
+
+[Service]
+Type=dbus
+User=root
+BusName=kr.gooroom.bhsdappA
+ExecStart=/home/haru/dbus_project/c/sdbus/bin/bh_sd_appA

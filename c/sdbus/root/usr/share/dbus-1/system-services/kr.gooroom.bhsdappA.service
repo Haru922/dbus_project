@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=kr.gooroom.bhsdappA
+Exec=/home/haru/dbus_project/c/sdbus/bin/bh_sd_appA
+User=root
+SystemdService=bh_sd_appA.service
